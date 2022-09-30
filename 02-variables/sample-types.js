@@ -1,7 +1,8 @@
-var found = true;
-var grade = 88.6;
-var firstName = "anup";
-var lastName = 'Kumar';
+"use strict";
+let found = true;
+let grade = 88.6;
+let firstName = "anup";
+let lastName = 'Kumar';
 console.log(found);
 console.log("The grade is " + grade);
-console.log("Hi ".concat(firstName, " ").concat(lastName));
+console.log(`Hi ${firstName} ${lastName}`);
